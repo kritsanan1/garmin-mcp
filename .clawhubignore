@@ -1,0 +1,47 @@
+# Runtime / secrets
+.env
+.env.*
+!.env.example
+*.garth_tokens
+~/.garmin_mcp_tokens
+.garmin_mcp_tokens
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env.local
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+
+# Git
+.git/
+.github/
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+
+# ClawHub local state
+.clawhub/
+.clawdhub/
